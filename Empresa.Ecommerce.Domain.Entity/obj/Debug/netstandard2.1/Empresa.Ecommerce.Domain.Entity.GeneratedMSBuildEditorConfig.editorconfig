@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Empresa.Ecommerce.Domain.Entity
+build_property.ProjectDir = F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\

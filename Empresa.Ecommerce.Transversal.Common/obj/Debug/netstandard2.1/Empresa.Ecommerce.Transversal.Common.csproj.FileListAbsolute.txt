@@ -1,0 +1,10 @@
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.deps.json
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.dll
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.pdb
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.csproj.AssemblyReference.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.AssemblyInfoInputs.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.AssemblyInfo.cs
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.csproj.CoreCompileInputs.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.dll
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.pdb

@@ -1,0 +1,13 @@
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.deps.json
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.dll
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.pdb
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.dll
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.pdb
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.csproj.AssemblyReference.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.AssemblyInfoInputs.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.AssemblyInfo.cs
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.csproj.CoreCompileInputs.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.csproj.CopyComplete
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.dll
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Data\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Data.pdb

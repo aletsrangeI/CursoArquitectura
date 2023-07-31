@@ -1,0 +1,10 @@
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.deps.json
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.dll
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\bin\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.pdb
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.csproj.AssemblyReference.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.AssemblyInfoInputs.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.AssemblyInfo.cs
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.csproj.CoreCompileInputs.cache
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.dll
+F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Domain.Entity\obj\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.pdb
