@@ -24,7 +24,7 @@ namespace Empresa.Ecommerce.Infrastructure.Repository
             {
                 var query = "CustomersInsert";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerID);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle", customers.ContactTitle);
@@ -46,7 +46,7 @@ namespace Empresa.Ecommerce.Infrastructure.Repository
             {
                 var query = "CustomersUpdate";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerID);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle", customers.ContactTitle);
@@ -62,25 +62,25 @@ namespace Empresa.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public bool Delete(string customerId)
+        public bool Delete(string CustomerID)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "CustomersDelete";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customerId);
+                parameters.Add("CustomerID", CustomerID);
                 var result = connection.Execute(query, param: parameters, commandType: CommandType.StoredProcedure);
                 return result > 0;
             }
         }
 
-        public Customers Get(string customerId)
+        public Customers Get(string CustomerID)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "CustomersGetById";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customerId);
+                parameters.Add("CustomerID", CustomerID);
                 var customer = connection.QuerySingle<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
                 return customer;
             }
@@ -108,7 +108,7 @@ namespace Empresa.Ecommerce.Infrastructure.Repository
             {
                 var query = "CustomersInsert";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerID);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle", customers.ContactTitle);
@@ -130,7 +130,7 @@ namespace Empresa.Ecommerce.Infrastructure.Repository
             {
                 var query = "CustomersUpdate";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customers.CustomerId);
+                parameters.Add("CustomerID", customers.CustomerID);
                 parameters.Add("CompanyName", customers.CompanyName);
                 parameters.Add("ContactName", customers.ContactName);
                 parameters.Add("ContactTitle", customers.ContactTitle);
@@ -146,25 +146,25 @@ namespace Empresa.Ecommerce.Infrastructure.Repository
             }
         }
 
-        public async Task<bool> DeleteAsync(string customerId)
+        public async Task<bool> DeleteAsync(string CustomerID)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "CustomersDelete";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customerId);
+                parameters.Add("CustomerID", CustomerID);
                 var result = await connection.ExecuteAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
                 return result > 0;
             }
         }
 
-        public async Task<Customers> GetAsync(string customerId)
+        public async Task<Customers> GetAsync(string CustomerID)
         {
             using (var connection = _connectionFactory.GetConnection)
             {
                 var query = "CustomersGetById";
                 var parameters = new DynamicParameters();
-                parameters.Add("CustomerId", customerId);
+                parameters.Add("CustomerID", CustomerID);
                 var customer = await connection.QuerySingleAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
                 return customer;
             }

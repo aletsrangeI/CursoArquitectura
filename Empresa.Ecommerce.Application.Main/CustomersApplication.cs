@@ -11,8 +11,8 @@ using System.Collections.Generic;
 
 namespace Empresa.Ecommerce.Application.Main
 {
-    public class CustomersApplication
-    {
+    public class CustomersApplication : ICustomersApplication
+    { 
         private readonly ICustomersDomain _customersDomain;
         private readonly IMapper _mapper;
 

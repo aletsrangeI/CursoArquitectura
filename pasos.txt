@@ -1,0 +1,28 @@
+Pasos para crear una nueva Api en la nueva arquitectura:
+
+Paso 1:
+	En la Capa de Dominio, en el proyecto de entidades, añadir una entidad nueva
+
+Paso 2: En la capa de infraestructura, en el proyecto Interface, crear la interfaz de la entidad nueva, en esta interfaz se definen los metodos
+
+
+Paso 3: En la capa de Infraestructura, en el proyecto Repository agregar la clase repository de la entidad, en esta capa va la implementacion de los metodos definidos en la interfaz
+
+Paso 4: en la capa de dominio, en Interface, agregar la interfaz de dominio
+
+Paso 5: Agregar la clase de implementacion de la interfaz de Dominio creada en el paso 4 en el proyecto Core
+
+PAso 6: En la capa de aplicacion, en el proyecto DTO, agregar la respectiva clase DTO
+
+Paso 7: en la misma capa de aplicacion, agregar la interfaz de la entidad
+
+Paso 8: Crear la implementacion de la interfaz creada en el paso 7 en la capa de aplicacion, en el proyecto Main
+
+Paso 9: Proceder con la capa de servicio
+paso 10: agregar inyeccion de dependencias tal que:
+
+            services.AddScoped<IUsersApplication, UsersApplication>();
+            services.AddScoped<IUsersDomain, UsersDomain>();
+            services.AddScoped<IUserRepository, UsersRepository>();
+
+en Startup.cs

@@ -11,9 +11,9 @@ namespace Empresa.Ecommerce.Domain.Core
 {
     public class CustomersDomain : ICustomersDomain
     {
-        private  readonly ICustomersDomain _customersRepository;
+        private  readonly ICustomersRepository _customersRepository;
 
-        public CustomersDomain(ICustomersDomain customersRepository)
+        public CustomersDomain(ICustomersRepository customersRepository)
         {
             _customersRepository = customersRepository;
         }

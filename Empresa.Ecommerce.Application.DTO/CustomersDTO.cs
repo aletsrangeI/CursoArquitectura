@@ -4,7 +4,7 @@ namespace Empresa.Ecommerce.Application.DTO
 {
     public class CustomersDTO
     {
-        public int CustomerId { get; set; }
+        public string CustomerID { get; set; }
         public string CompanyName { get; set; }
         public string ContactName { get; set; }
         public string ContactTitle { get; set; }
@@ -15,6 +15,5 @@ namespace Empresa.Ecommerce.Application.DTO
         public string Country { get; set; }
         public string Phone { get; set; }
         public string Fax { get; set; }
-
     }
 }

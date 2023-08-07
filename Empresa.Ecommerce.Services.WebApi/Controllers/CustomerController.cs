@@ -16,7 +16,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         }
 
         #region "Metodos Sincronos"
-        [HttpPost]
+        [HttpPost, ActionName("Insert")]
         public IActionResult Insert([FromBody] CustomersDTO customerDto)
         {
             if (customerDto == null) return BadRequest();
@@ -28,7 +28,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpPut]
+        [HttpPut, ActionName("Update")]
         public IActionResult Update([FromBody] CustomersDTO customerDto)
         {
             if (customerDto == null) return BadRequest();
@@ -40,7 +40,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpDelete("{customerId}")]
+        [HttpDelete("{customerId}"), ActionName("Delete")]
         public IActionResult Delete(string customerId)
         {
             if (string.IsNullOrEmpty(customerId)) return BadRequest();
@@ -52,7 +52,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet("{customerId}")]
+        [HttpGet("{customerId}"), ActionName("Get")]
         public IActionResult Get(string customerId)
         {
             if (string.IsNullOrEmpty(customerId)) return BadRequest();
@@ -64,7 +64,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet]
+        [HttpGet, ActionName("GetAll")]
         public IActionResult GetAll(string customerId)
         {
             var response = _customersApplication.GetAll();
@@ -76,7 +76,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         #endregion
 
         #region "Metodos Asincronos"
-        [HttpPost]
+        [HttpPost, ActionName("InsertAsync")]
         public async Task<IActionResult> InsertAsync([FromBody] CustomersDTO customerDto)
         {
             if (customerDto == null) return BadRequest();
@@ -88,7 +88,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpPut]
+        [HttpPut, ActionName("UpdateAsync")]
         public async Task<IActionResult> UpdateAsync([FromBody] CustomersDTO customerDto)
         {
             if (customerDto == null) return BadRequest();
@@ -100,7 +100,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpDelete("{customerId}")]
+        [HttpDelete("{customerId}"), ActionName("DeleteAsync")]
         public async Task<IActionResult> DeleteAsync(string customerId)
         {
             if (string.IsNullOrEmpty(customerId)) return BadRequest();
@@ -112,7 +112,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet("{customerId}")]
+        [HttpGet("{customerId}"), ActionName("GetAsync")]
         public async Task<IActionResult> GetAsync(string customerId)
         {
             if (string.IsNullOrEmpty(customerId)) return BadRequest();
@@ -124,7 +124,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet]
+        [HttpGet, ActionName("GetAllAsync")]
         public async Task<IActionResult> GetAllAsync(string customerId)
         {
             var response = await _customersApplication.GetAllAsync();

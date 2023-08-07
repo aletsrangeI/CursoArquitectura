@@ -8,3 +8,13 @@ F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Tran
 F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.csproj.CoreCompileInputs.cache
 F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.dll
 F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.pdb
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.deps.json
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.dll
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\bin\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.pdb
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.csproj.AssemblyReference.cache
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.AssemblyInfoInputs.cache
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.AssemblyInfo.cs
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.csproj.CoreCompileInputs.cache
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.dll
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\obj\Debug\netstandard2.1\Empresa.Ecommerce.Transversal.Common.pdb

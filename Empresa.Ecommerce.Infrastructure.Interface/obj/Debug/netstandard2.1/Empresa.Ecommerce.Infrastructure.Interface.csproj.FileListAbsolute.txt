@@ -11,3 +11,16 @@ F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infr
 F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.csproj.CopyComplete
 F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.dll
 F:\CursoArquitectura\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.pdb
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\bin\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.deps.json
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\bin\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.dll
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\bin\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.pdb
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\bin\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.dll
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\bin\Debug\netstandard2.1\Empresa.Ecommerce.Domain.Entity.pdb
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.csproj.AssemblyReference.cache
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.AssemblyInfoInputs.cache
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.AssemblyInfo.cs
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.csproj.CoreCompileInputs.cache
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.csproj.CopyComplete
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.dll
+F:\Proyectos\CursoArquitectura\Empresa.Ecommerce.Infrastructure.Interface\obj\Debug\netstandard2.1\Empresa.Ecommerce.Infrastructure.Interface.pdb
