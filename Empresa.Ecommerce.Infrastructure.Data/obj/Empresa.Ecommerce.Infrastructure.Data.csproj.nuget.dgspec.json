@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj": {}
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj": {
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj",
+        "projectUniqueName": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj",
         "projectName": "Empresa.Ecommerce.Infrastructure.Data",
-        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj",
-        "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Data\\obj\\",
+        "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\rwarj\\.nuget\\packages\\",
+        "outputPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rwarj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +33,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
-                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj"
+              "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj"
               }
             }
           }
@@ -46,11 +51,11 @@
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[7.0.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[4.8.5, )"
             }
           },
           "imports": [
@@ -69,21 +74,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
+        "projectUniqueName": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
         "projectName": "Empresa.Ecommerce.Transversal.Common",
-        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
-        "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\obj\\",
+        "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
+        "packagesPath": "C:\\Users\\rwarj\\.nuget\\packages\\",
+        "outputPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rwarj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

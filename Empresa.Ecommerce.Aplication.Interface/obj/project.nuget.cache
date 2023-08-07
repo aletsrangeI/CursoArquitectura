@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cqfwTYpyenwaVBWXwrh7xdpWIwPY1+8MOhvYtgRKkogKZrpL4+xCM15HSAncJhl5KG6bOcmKmHA22MZG9j2rgw==",
+  "dgSpecHash": "asdQz/OCrBL4Dpc551B43cn0piLZDkhwwZFOmj8r1HchMmV3y7oenREh4+qXIYyp2wWq+Ybuf6okr7b0AEafrg==",
   "success": true,
-  "projectFilePath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
+  "projectFilePath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

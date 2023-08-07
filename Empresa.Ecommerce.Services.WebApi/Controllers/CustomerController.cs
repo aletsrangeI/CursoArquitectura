@@ -2,9 +2,11 @@
 using Empresa.Ecommerce.Application.DTO;
 using Empresa.Ecommerce.Aplication.Interface;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Empresa.Ecommerce.Services.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class CustomerController : ControllerBase

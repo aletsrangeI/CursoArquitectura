@@ -1,21 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "L6LUdT1iKY6Byjf9Q4mHYxfpFu9nESrKH05cUliXCkZu470lujhJR1t0Nr+L64tvgTYuIwN6rRiFS1kiwL9QtA==",
+  "dgSpecHash": "4JAXmBi21NrmFcictbp1/CkvofS2r1ZrHUIO/Bpy8+0REW4Tza22nvGl1rfRibvmldio71MZ2aJDvjcHhjc6lg==",
   "success": true,
-  "projectFilePath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
+  "projectFilePath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alecs\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "C:\\Users\\rwarj\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\rwarj\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

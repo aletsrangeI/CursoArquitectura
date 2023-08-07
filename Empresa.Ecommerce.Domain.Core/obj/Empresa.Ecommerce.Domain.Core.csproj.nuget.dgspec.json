@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj": {}
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj": {}
   },
   "projects": {
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj": {
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj",
+        "projectUniqueName": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj",
         "projectName": "Empresa.Ecommerce.Domain.Core",
-        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Core\\obj\\",
+        "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Core\\Empresa.Ecommerce.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\rwarj\\.nuget\\packages\\",
+        "outputPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rwarj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +33,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
-                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
+              "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
               },
-              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj": {
-                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj"
+              "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj": {
+                "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj"
               },
-              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj": {
-                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj"
+              "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj": {
+                "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj"
               }
             }
           }
@@ -65,21 +70,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
+        "projectUniqueName": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
         "projectName": "Empresa.Ecommerce.Domain.Entity",
-        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
-        "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\obj\\",
+        "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
+        "packagesPath": "C:\\Users\\rwarj\\.nuget\\packages\\",
+        "outputPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rwarj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,21 +130,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj": {
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj",
+        "projectUniqueName": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj",
         "projectName": "Empresa.Ecommerce.Domain.Interface",
-        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj",
-        "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Interface\\obj\\",
+        "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Interface\\Empresa.Ecommerce.Domain.Interface.csproj",
+        "packagesPath": "C:\\Users\\rwarj\\.nuget\\packages\\",
+        "outputPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Interface\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rwarj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,8 +163,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
-                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
+              "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
               }
             }
           }
@@ -179,21 +194,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj": {
+    "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj",
+        "projectUniqueName": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj",
         "projectName": "Empresa.Ecommerce.Infrastructure.Interface",
-        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj",
-        "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Interface\\obj\\",
+        "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Interface\\Empresa.Ecommerce.Infrastructure.Interface.csproj",
+        "packagesPath": "C:\\Users\\rwarj\\.nuget\\packages\\",
+        "outputPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Infrastructure.Interface\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rwarj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -207,8 +227,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
-                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
+              "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
               }
             }
           }
@@ -238,7 +258,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

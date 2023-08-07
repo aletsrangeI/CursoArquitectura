@@ -15,11 +15,13 @@ namespace Empresa.Ecommerce.Application.Main
     { 
         private readonly ICustomersDomain _customersDomain;
         private readonly IMapper _mapper;
+        private readonly IAppLogger<CustomersApplication> _logger;
 
-        public CustomersApplication(ICustomersDomain customersDomain, IMapper mapper)
+        public CustomersApplication(ICustomersDomain customersDomain, IMapper mapper, IAppLogger<CustomersApplication> logger)
         {
             _customersDomain = customersDomain;
             _mapper = mapper;
+            _logger = logger;
         }
 
         #region Metodos Sincronos
@@ -109,11 +111,13 @@ namespace Empresa.Ecommerce.Application.Main
                 {
                     response.isSuccess = true;
                     response.Message = "Consulta exitosa";
+                    _logger.LogInformation(response.Message);
                 }
             }
             catch (Exception ex)
             {
                 response.Message = ex.Message;
+                _logger.LogError(ex.Message);
             }
             return response;
         }
