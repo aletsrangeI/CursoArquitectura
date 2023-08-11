@@ -21,6 +21,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Threading.Tasks;
+using Microsoft.OpenApi.Models;
 
 namespace Empresa.Ecommerce.Services.WebApi
 {
@@ -118,7 +119,20 @@ namespace Empresa.Ecommerce.Services.WebApi
                 {
                     Version = "v1",
                     Title = "Empresa.Ecommerce.Services.WebApi",
-                    Description = "Curso Arquitectura de aplicaciones .net"
+                    Description = "Curso Arquitectura de aplicaciones .net",
+                    TermsOfService = new Uri("https://twitter.com/aletsrangel"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Alejandro Rangel",
+                        Email = "alejandro.rangel.avl@gmail.com",
+                        Url = new Uri("https://twitter.com/aletsrangel"),
+                    },
+
+                    License = new OpenApiLicense
+                    {
+                        Name = "MIT",
+                        Url = new Uri("https://opensource.org/licenses/MIT"),
+                    }
                 });
                 //set the comments path for the swagger json and ui
 
@@ -126,7 +140,7 @@ namespace Empresa.Ecommerce.Services.WebApi
                 var xmlPath = System.IO.Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
 
-                c.AddSecurityDefinition("Authorization", new OpenApiSecurityScheme
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = "Authorization by API Key",
                     Name = "Authorization",
@@ -139,7 +153,11 @@ namespace Empresa.Ecommerce.Services.WebApi
                     {
                         new OpenApiSecurityScheme
                         {
-                            Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "bearer"}
+                            Reference = new OpenApiReference 
+                            {
+                                Type = ReferenceType.SecurityScheme, 
+                                Id = "Bearer"
+                            }
                         },
                         new string[] {}
                     }
