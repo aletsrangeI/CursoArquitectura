@@ -8,26 +8,19 @@
     ".NETStandard,Version=v2.1": []
   },
   "packageFolders": {
-    "C:\\Users\\rwarj\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Alecs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+      "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
       "projectName": "Empresa.Ecommerce.Application.DTO",
-      "projectPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
-      "packagesPath": "C:\\Users\\rwarj\\.nuget\\packages\\",
-      "outputPath": "F:\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Application.DTO\\obj\\",
+      "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+      "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
+      "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rwarj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

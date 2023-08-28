@@ -4,29 +4,38 @@ using Empresa.Ecommerce.Domain.Interface;
 using Empresa.Ecommerce.Transversal.Common;
 using AutoMapper;
 using System;
+using Empresa.Ecommerce.Application.Validator;
 
 namespace Empresa.Ecommerce.Application.Main
 {
     public class UsersApplication : IUsersApplication
     {
-
         private readonly IUsersDomain _usersDomain;
         private readonly IMapper _mapper;
+        private readonly UsersDTOValidator _usersDtoValidator;
 
-        public UsersApplication(IUsersDomain usersDomain, IMapper mapper)
+        public UsersApplication(
+            IUsersDomain usersDomain,
+            IMapper mapper,
+            UsersDTOValidator usersDtoValidator
+        )
         {
             _usersDomain = usersDomain;
             _mapper = mapper;
+            _usersDtoValidator = usersDtoValidator;
         }
-
-
 
         public Response<UsersDTO> Authenticate(string username, string password)
         {
             var response = new Response<UsersDTO>();
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            var validation = _usersDtoValidator.Validate(
+                new UsersDTO { UserName = username, Password = password }
+            );
+
+            if (!validation.IsValid)
             {
-                response.Message = "El usuario o la contraseña no pueden estar vacíos";
+                response.Message = "Errores de validacion";
+                response.Errors = validation.Errors;
                 return response;
             }
 

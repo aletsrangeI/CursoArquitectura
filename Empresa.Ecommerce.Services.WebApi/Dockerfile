@@ -5,7 +5,7 @@ COPY . .
 
 WORKDIR /src/Empresa.Ecommerce.Services.WebApi
 RUN dotnet restore
-RUN dotnet publis -c Release -o out
+RUN dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app

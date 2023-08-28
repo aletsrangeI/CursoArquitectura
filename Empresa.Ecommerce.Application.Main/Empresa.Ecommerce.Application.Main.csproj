@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Empresa.Ecommerce.Aplication.Interface\Empresa.Ecommerce.Aplication.Interface.csproj" />
     <ProjectReference Include="..\Empresa.Ecommerce.Application.DTO\Empresa.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\Empresa.Ecommerce.Application.Validator\Empresa.Ecommerce.Application.Validator.csproj" />
     <ProjectReference Include="..\Empresa.Ecommerce.Domain.Entity\Empresa.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\Empresa.Ecommerce.Domain.Interface\Empresa.Ecommerce.Domain.Interface.csproj" />
     <ProjectReference Include="..\Empresa.Ecommerce.Transversal.Common\Empresa.Ecommerce.Transversal.Common.csproj" />

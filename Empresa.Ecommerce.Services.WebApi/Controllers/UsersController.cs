@@ -32,7 +32,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         {
             var response = _usersApplication.Authenticate(usersDto.UserName, usersDto.Password);
 
-            if (!response.isSuccess) return BadRequest(response.Message);
+            if (!response.isSuccess) return BadRequest(response);
 
             if (response.Data == null) return NotFound(response.Message);
 
