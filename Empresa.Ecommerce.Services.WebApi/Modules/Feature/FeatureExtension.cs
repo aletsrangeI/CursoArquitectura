@@ -14,7 +14,7 @@ namespace Empresa.Ecommerce.Services.WebApi
             services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins(configuration["Config:OriginCors"])
                                                                             .AllowAnyHeader()
                                                                             .AllowAnyMethod()));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+            services.AddMvc();
             return services;
         }
     }

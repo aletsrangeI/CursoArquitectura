@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NaxCTxVGjucZiNah1At548Xlf3L7/d3dg4N07pV3cy8UW+qJIMFxiyBhz1U4YPnMV359RvGczpWWsqb+HAKt8w==",
+  "dgSpecHash": "0Xx6UOBmHBT3q915h97oAHQqdKGyCcq0Ek+7zu6RAUWfWNjrrLKNKUKsxd4INbtFUcRD15EdhGWtLVzau5MP/A==",
   "success": true,
-  "projectFilePath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
+  "projectFilePath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alecs\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512"
+    "C:\\Users\\Alecs\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512"
   ],
   "logs": []
 }

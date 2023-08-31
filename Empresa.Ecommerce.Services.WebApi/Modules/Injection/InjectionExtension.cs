@@ -19,7 +19,7 @@ namespace Empresa.Ecommerce.Services.WebApi
         public static IServiceCollection AddInjection(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddSingleton<IConfiguration>(configuration);
-            services.AddSingleton<IConnectionFactory, ConnectionFactory>();
+            services.AddSingleton<DapperContext>();
             services.AddScoped<ICustomersApplication, CustomersApplication>();
             services.AddScoped<ICustomersDomain, CustomersDomain>();
             services.AddScoped<ICustomersRepository, CustomerRepository>();
@@ -27,6 +27,7 @@ namespace Empresa.Ecommerce.Services.WebApi
             services.AddScoped<IUsersDomain, UsersDomain>();
             services.AddScoped<IUserRepository, UsersRepository>();
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             return services;
         }
     }

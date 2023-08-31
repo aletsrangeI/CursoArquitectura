@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {}
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {}
   },
   "projects": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
         "projectName": "Empresa.Ecommerce.Domain.Entity",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",

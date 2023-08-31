@@ -4,6 +4,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Empresa.Ecommerce.Services.WebApi.Modules.Validator;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using System;
+using HealthChecks.UI.Client;
 
 namespace Empresa.Ecommerce.Services.WebApi
 {
@@ -33,6 +36,8 @@ namespace Empresa.Ecommerce.Services.WebApi
             services.AddSwagger();
 
             services.AddValidators();
+
+            services.AddHealthCheck(this.Configuration);
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -60,6 +65,11 @@ namespace Empresa.Ecommerce.Services.WebApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHealthChecksUI();
+                endpoints.MapHealthChecks("/health", new HealthCheckOptions{
+                    Predicate = _ => true,
+                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+                });
             });
         }
     }

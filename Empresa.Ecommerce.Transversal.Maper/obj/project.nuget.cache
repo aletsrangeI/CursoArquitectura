@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwykpN+04iY9KKrJlbrAcSPQ3CX4js/UyZkRqsB6svptPfDXMG49m7CrKCaw7MLQNBrAfYSznu6AblbjTyE1yw==",
+  "dgSpecHash": "2tVitfB+LPcG+aHYSmTNR1fB4q05tnMso54qZf1MHFC+Jtrm4fjqaGAFg9qnyiJu9LP+nnA/MubNZu2KnHF+4Q==",
   "success": true,
-  "projectFilePath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
+  "projectFilePath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alecs\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"

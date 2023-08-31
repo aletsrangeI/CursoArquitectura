@@ -28,11 +28,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
-                "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj"
+              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj"
               },
-              "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
-                "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj"
+              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
+                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
         "projectName": "Empresa.Ecommerce.Application.DTO",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,14 +121,14 @@
         }
       }
     },
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
         "projectName": "Empresa.Ecommerce.Transversal.Common",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -159,7 +159,7 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.0.4, )"
+              "version": "[11.7.1, )"
             }
           },
           "imports": [

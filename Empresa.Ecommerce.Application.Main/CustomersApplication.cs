@@ -8,16 +8,19 @@ using Empresa.Ecommerce.Transversal.Common;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-
 namespace Empresa.Ecommerce.Application.Main
 {
     public class CustomersApplication : ICustomersApplication
-    { 
+    {
         private readonly ICustomersDomain _customersDomain;
         private readonly IMapper _mapper;
         private readonly IAppLogger<CustomersApplication> _logger;
 
-        public CustomersApplication(ICustomersDomain customersDomain, IMapper mapper, IAppLogger<CustomersApplication> logger)
+        public CustomersApplication(
+            ICustomersDomain customersDomain,
+            IMapper mapper,
+            IAppLogger<CustomersApplication> logger
+        )
         {
             _customersDomain = customersDomain;
             _mapper = mapper;
@@ -44,6 +47,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public Response<bool> Update(CustomersDTO customers)
         {
             var response = new Response<bool>();
@@ -63,6 +67,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public Response<bool> Delete(string customerId)
         {
             var response = new Response<bool>();
@@ -81,6 +86,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public Response<CustomersDTO> Get(string customerId)
         {
             var response = new Response<CustomersDTO>();
@@ -100,6 +106,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public Response<IEnumerable<CustomersDTO>> GetAll()
         {
             var response = new Response<IEnumerable<CustomersDTO>>();
@@ -111,6 +118,36 @@ namespace Empresa.Ecommerce.Application.Main
                 {
                     response.isSuccess = true;
                     response.Message = "Consulta exitosa";
+                    _logger.LogInformation(response.Message);
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+                _logger.LogError(ex.Message);
+            }
+            return response;
+        }
+
+        public ResponsePagination<IEnumerable<CustomersDTO>> GetAllWithPagination(
+            int PageNumber,
+            int PageSize
+        )
+        {
+            var response = new ResponsePagination<IEnumerable<CustomersDTO>>();
+            try
+            {
+                var count = _customersDomain.Count();
+                var customers = _customersDomain.GetAllWithPagination(PageNumber, PageSize);
+                response.Data = _mapper.Map<IEnumerable<CustomersDTO>>(customers);
+
+                if (response.Data != null)
+                {
+                    response.isSuccess = true;
+                    response.Message = "Consulta exitosa";
+                    response.PageNumber = PageNumber;
+                    response.TotalPages = (int)Math.Ceiling(count / (double)PageSize);
+                    response.TotalCount = count;
                     _logger.LogInformation(response.Message);
                 }
             }
@@ -143,6 +180,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public async Task<Response<bool>> UpdateAsync(CustomersDTO customers)
         {
             var response = new Response<bool>();
@@ -162,6 +200,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public async Task<Response<bool>> DeleteAsync(string customerId)
         {
             var response = new Response<bool>();
@@ -180,6 +219,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public async Task<Response<CustomersDTO>> GetAsync(string customerId)
         {
             var response = new Response<CustomersDTO>();
@@ -199,6 +239,7 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
         public async Task<Response<IEnumerable<CustomersDTO>>> GetAllAsync()
         {
             var response = new Response<IEnumerable<CustomersDTO>>();
@@ -218,10 +259,33 @@ namespace Empresa.Ecommerce.Application.Main
             }
             return response;
         }
+
+        public async Task<ResponsePagination<IEnumerable<CustomersDTO>>> GetAllWithPaginationAsync(int PageNumber, int PageSize)
+        {
+            var response = new ResponsePagination<IEnumerable<CustomersDTO>>();
+            try
+            {
+                var count = await _customersDomain.CountAsync();
+                var customers = await _customersDomain.GetAllWithPaginationAsync(PageNumber, PageSize);
+                response.Data = _mapper.Map<IEnumerable<CustomersDTO>>(customers);
+
+                if (response.Data != null)
+                {
+                    response.isSuccess = true;
+                    response.Message = "Consulta exitosa";
+                    response.PageNumber = PageNumber;
+                    response.TotalPages = (int)Math.Ceiling(count / (double)PageSize);
+                    response.TotalCount = count;
+                    _logger.LogInformation(response.Message);
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Message = ex.Message;
+                _logger.LogError(ex.Message);
+            }
+            return response;
+        }
         #endregion
-
-
-        
-
     }
 }

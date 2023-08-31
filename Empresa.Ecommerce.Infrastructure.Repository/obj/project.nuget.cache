@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yCRiGE3aB5S2wNkqHpaIeHU9Xlk9AO1pMutTUTlY5TO5WkpDyVu5a70t61EOCMc0LAiGRDp/WzeenwCSeezfxA==",
+  "dgSpecHash": "QGg4mC9fmwWHsoGKg1lphGXtVrihUiBu29c67dIL59Zguyd24ahWpSiY0WwBl4Up46lp6uZNnRKpMpLsfzM7DA==",
   "success": true,
-  "projectFilePath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Repository\\Empresa.Ecommerce.Infrastructure.Repository.csproj",
+  "projectFilePath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Repository\\Empresa.Ecommerce.Infrastructure.Repository.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alecs\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
-    "C:\\Users\\Alecs\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
+    "C:\\Users\\Alecs\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
+    "C:\\Users\\Alecs\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

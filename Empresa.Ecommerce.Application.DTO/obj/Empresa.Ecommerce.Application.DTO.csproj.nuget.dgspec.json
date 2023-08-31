@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {}
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {}
   },
   "projects": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
         "projectName": "Empresa.Ecommerce.Application.DTO",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",

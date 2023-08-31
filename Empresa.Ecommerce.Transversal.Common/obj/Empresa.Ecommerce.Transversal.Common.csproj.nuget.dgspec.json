@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {}
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {}
   },
   "projects": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
         "projectName": "Empresa.Ecommerce.Transversal.Common",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,7 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.0.4, )"
+              "version": "[11.7.1, )"
             }
           },
           "imports": [

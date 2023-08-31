@@ -75,6 +75,16 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
 
             return BadRequest(response.Message);
         }
+
+        [HttpGet, ActionName("GetAllWithPagination")]
+        public IActionResult GetAllWithPagination([FromQuery] int PageNumber, int PageSize)
+        {
+            var response = _customersApplication.GetAllWithPagination(PageNumber, PageSize);
+
+            if (response.isSuccess) return Ok(response);
+
+            return BadRequest(response.Message);
+        }
         #endregion
 
         #region "Metodos Asincronos"
@@ -130,6 +140,16 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         public async Task<IActionResult> GetAllAsync(string customerId)
         {
             var response = await _customersApplication.GetAllAsync();
+
+            if (response.isSuccess) return Ok(response);
+
+            return BadRequest(response.Message);
+        }
+
+        [HttpGet, ActionName("GetAllWithPaginationAsync")]
+        public async Task<IActionResult> GetAllWithPaginationAsync([FromQuery] int PageNumber, int PageSize)
+        {
+            var response = await _customersApplication.GetAllWithPaginationAsync(PageNumber, PageSize);
 
             if (response.isSuccess) return Ok(response);
 

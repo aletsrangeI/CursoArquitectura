@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj": {}
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj": {}
   },
   "projects": {
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
         "projectName": "Empresa.Ecommerce.Application.DTO",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
         "projectName": "Empresa.Ecommerce.Domain.Entity",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,14 +114,14 @@
         }
       }
     },
-    "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj": {
+    "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
+        "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
         "projectName": "Empresa.Ecommerce.Transversal.Maper",
-        "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
+        "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\Empresa.Ecommerce.Transversal.Maper.csproj",
         "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-        "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\obj\\",
+        "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Maper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,11 +138,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
-                "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj"
+              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
+                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj"
               },
-              "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
-                "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
+              "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+                "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
               }
             }
           }

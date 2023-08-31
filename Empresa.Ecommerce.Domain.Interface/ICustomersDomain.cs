@@ -14,6 +14,9 @@ namespace Empresa.Ecommerce.Domain.Interface
         bool Delete(string customerId);
         Customers Get(string customerId);
         IEnumerable<Customers> GetAll();
+        IEnumerable<Customers> GetAllWithPagination(int pageNumber, int pageSize);
+        int Count();
+
         #endregion
 
         #region Metodos Asincronos
@@ -22,6 +25,8 @@ namespace Empresa.Ecommerce.Domain.Interface
         Task<bool> DeleteAsync(string customerId);
         Task<Customers> GetAsync(string customerId);
         Task<IEnumerable<Customers>> GetAllAsync();
+        Task<IEnumerable<Customers>> GetAllWithPaginationAsync(int pageNumber, int pageSize);
+        Task<int> CountAsync();
         #endregion
     }
 }

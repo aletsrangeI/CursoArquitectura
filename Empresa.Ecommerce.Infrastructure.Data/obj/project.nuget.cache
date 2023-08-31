@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jxB1OsIeEQjVOuXJ+jr3VmfX7HENghwA8J3ISqJS2vatT7cU3GcZndwbvhGPJTv8hlppZ6ZBCtkIq3dx3sLZwA==",
+  "dgSpecHash": "5YVJRWwhSGLaxp3mW8pidGDSqLUb5GirR+h1QoavYJnf0y8X2RimtyN6/mKAfW214GlKVUexhLJHd+jSmZLCIg==",
   "success": true,
   "projectFilePath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Infrastructure.Data\\Empresa.Ecommerce.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alecs\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
+    "C:\\Users\\Alecs\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Alecs\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
