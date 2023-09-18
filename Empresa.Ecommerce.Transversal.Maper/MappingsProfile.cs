@@ -9,8 +9,8 @@ namespace Empresa.Ecommerce.Transversal.Maper
     {
         public MappingsProfile()
         {
-            CreateMap<Customers, CustomersDTO>().ReverseMap();
-            CreateMap<Users, UsersDTO>().ReverseMap();
+            CreateMap<Customer, CustomerDTO>().ReverseMap();
+            CreateMap<User, UserDTO>().ReverseMap();
 
             //CreateMap<Customers, CustomersDTO>().ReverseMap()
             //    .ForMember(dest => dest.CustomerId, source => source.MapFrom(src => src.CustomerId))

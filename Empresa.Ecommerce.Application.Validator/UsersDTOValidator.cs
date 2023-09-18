@@ -4,7 +4,7 @@ using Empresa.Ecommerce.Application.DTO;
 
 namespace Empresa.Ecommerce.Application.Validator
 {
-    public class UsersDTOValidator : AbstractValidator<UsersDTO>
+    public class UsersDTOValidator : AbstractValidator<UserDTO>
     {
         public UsersDTOValidator() 
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oVg87/ZRiftYpPVEuVMz4/mnlcghRXfoHAhJyV4AFDutolE9hVrPAaSpAPc5QqgLaqmRL5miWEsk/D3KVWZZuA==",
+  "dgSpecHash": "rLWyDJ/KzLN63BJctkUDh7lmX53dQEP8typHCGLRtiNBu5mvKcofd+GAfO/dWYc9iZchfrJzpVQPs32UvWFPnQ==",
   "success": true,
-  "projectFilePath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
+  "projectFilePath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alecs\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512"
   ],

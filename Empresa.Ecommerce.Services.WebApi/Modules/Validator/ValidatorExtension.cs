@@ -3,9 +3,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Empresa.Ecommerce.Services.WebApi.Modules.Validator
 {
-    public static class ValidatorExtension
+    public static class ValidatorExtensions
     {
-        public static IServiceCollection AddValidators(this IServiceCollection services)
+        public static IServiceCollection AddValidator(this IServiceCollection services)
         {
             services.AddTransient<UsersDTOValidator>();
             return services;

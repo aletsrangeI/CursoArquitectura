@@ -1,34 +1,35 @@
-﻿using System.Text;
-using Microsoft.Extensions.DependencyInjection; 
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Threading.Tasks;
+using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Empresa.Ecommerce.Services.WebApi.Helpers;
 using Microsoft.Extensions.Configuration;
-using System.Threading.Tasks;
-using System;
+using Empresa.Ecommerce.Services.WebApi.Helpers;
 
-namespace Empresa.Ecommerce.Services.WebApi
+namespace Empresa.Ecommerce.Services.WebApi.Modules.Authentication
 {
-    public static class AuthenticationExtension
+    public static class AuthenticationExtensions
     {
         public static IServiceCollection AddAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
             var appSettingsSection = configuration.GetSection("Config");
-            services.Configure<AppSettings>(appSettingsSection); // Se hace el mapeo de los valores contenidos en appsettings a la clase AppSettings
+            services.Configure<AppSettings>(appSettingsSection);
 
             // configure jwt authentication
             var appSettings = appSettingsSection.Get<AppSettings>();
 
-            var key = System.Text.Encoding.ASCII.GetBytes(appSettings.Secret);
-            var issuer = appSettings.Issuer;
-            var audience = appSettings.Audience;
+            var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+            var Issuer = appSettings.Issuer;
+            var Audience = appSettings.Audience;
 
-            // configure jwt authentication
             services.AddAuthentication(x =>
             {
                 x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(x =>
+            })
+            .AddJwtBearer(x =>
             {
                 x.Events = new JwtBearerEvents
                 {
@@ -47,7 +48,6 @@ namespace Empresa.Ecommerce.Services.WebApi
                         return Task.CompletedTask;
                     }
                 };
-
                 x.RequireHttpsMetadata = false;
                 x.SaveToken = false;
                 x.TokenValidationParameters = new TokenValidationParameters
@@ -55,13 +55,12 @@ namespace Empresa.Ecommerce.Services.WebApi
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(key),
                     ValidateIssuer = true,
-                    ValidIssuer = issuer,
+                    ValidIssuer = Issuer,
                     ValidateAudience = true,
-                    ValidAudience = audience,
+                    ValidAudience = Audience,
                     ValidateLifetime = true,
                     ClockSkew = TimeSpan.Zero
                 };
-
             });
             return services;
         }

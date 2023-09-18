@@ -1,10 +1,6 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Diagnostics.HealthChecks;
+﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Empresa.Ecommerce.Services.WebApi;
-
+namespace Empresa.Ecommerce.Ecommerce.Services.WebApi.Modules.HealthCheck;
 public class HealthCheckCustom : IHealthCheck
 {
     private readonly Random _random = new();

@@ -1,17 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Empresa.Ecommerce.Aplication.Interface.UseCases;
 using Empresa.Ecommerce.Application.DTO;
-using Empresa.Ecommerce.Aplication.Interface;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace Empresa.Ecommerce.Services.WebApi.Controllers
 {
     [Authorize]
+    [EnableRateLimiting("fixedWindow")]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class CustomerController : ControllerBase
     {
         private readonly ICustomersApplication _customersApplication;
+
         public CustomerController(ICustomersApplication customersApplication)
         {
             _customersApplication = customersApplication;
@@ -19,25 +21,29 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
 
         #region "Metodos Sincronos"
         [HttpPost, ActionName("Insert")]
-        public IActionResult Insert([FromBody] CustomersDTO customerDto)
+        public IActionResult Insert([FromBody] CustomerDTO customerDto)
         {
-            if (customerDto == null) return BadRequest();
+            if (customerDto == null)
+                return BadRequest();
 
             var response = _customersApplication.Insert(customerDto);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
 
         [HttpPut, ActionName("Update")]
-        public IActionResult Update([FromBody] CustomersDTO customerDto)
+        public IActionResult Update([FromBody] CustomerDTO customerDto)
         {
-            if (customerDto == null) return BadRequest();
+            if (customerDto == null)
+                return BadRequest();
 
             var response = _customersApplication.Update(customerDto);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -45,11 +51,13 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         [HttpDelete("{customerId}"), ActionName("Delete")]
         public IActionResult Delete(string customerId)
         {
-            if (string.IsNullOrEmpty(customerId)) return BadRequest();
+            if (string.IsNullOrEmpty(customerId))
+                return BadRequest();
 
             var response = _customersApplication.Delete(customerId);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -57,11 +65,13 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         [HttpGet("{customerId}"), ActionName("Get")]
         public IActionResult Get(string customerId)
         {
-            if (string.IsNullOrEmpty(customerId)) return BadRequest();
+            if (string.IsNullOrEmpty(customerId))
+                return BadRequest();
 
             var response = _customersApplication.Get(customerId);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -71,7 +81,8 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         {
             var response = _customersApplication.GetAll();
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -81,7 +92,8 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         {
             var response = _customersApplication.GetAllWithPagination(PageNumber, PageSize);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -89,25 +101,29 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
 
         #region "Metodos Asincronos"
         [HttpPost, ActionName("InsertAsync")]
-        public async Task<IActionResult> InsertAsync([FromBody] CustomersDTO customerDto)
+        public async Task<IActionResult> InsertAsync([FromBody] CustomerDTO customerDto)
         {
-            if (customerDto == null) return BadRequest();
+            if (customerDto == null)
+                return BadRequest();
 
             var response = await _customersApplication.InsertAsync(customerDto);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
 
         [HttpPut, ActionName("UpdateAsync")]
-        public async Task<IActionResult> UpdateAsync([FromBody] CustomersDTO customerDto)
+        public async Task<IActionResult> UpdateAsync([FromBody] CustomerDTO customerDto)
         {
-            if (customerDto == null) return BadRequest();
+            if (customerDto == null)
+                return BadRequest();
 
             var response = await _customersApplication.UpdateAsync(customerDto);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -115,11 +131,13 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         [HttpDelete("{customerId}"), ActionName("DeleteAsync")]
         public async Task<IActionResult> DeleteAsync(string customerId)
         {
-            if (string.IsNullOrEmpty(customerId)) return BadRequest();
+            if (string.IsNullOrEmpty(customerId))
+                return BadRequest();
 
             var response = await _customersApplication.DeleteAsync(customerId);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -127,11 +145,13 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         [HttpGet("{customerId}"), ActionName("GetAsync")]
         public async Task<IActionResult> GetAsync(string customerId)
         {
-            if (string.IsNullOrEmpty(customerId)) return BadRequest();
+            if (string.IsNullOrEmpty(customerId))
+                return BadRequest();
 
             var response = await _customersApplication.GetAsync(customerId);
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
@@ -141,17 +161,25 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         {
             var response = await _customersApplication.GetAllAsync();
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }
 
         [HttpGet, ActionName("GetAllWithPaginationAsync")]
-        public async Task<IActionResult> GetAllWithPaginationAsync([FromQuery] int PageNumber, int PageSize)
+        public async Task<IActionResult> GetAllWithPaginationAsync(
+            [FromQuery] int PageNumber,
+            int PageSize
+        )
         {
-            var response = await _customersApplication.GetAllWithPaginationAsync(PageNumber, PageSize);
+            var response = await _customersApplication.GetAllWithPaginationAsync(
+                PageNumber,
+                PageSize
+            );
 
-            if (response.isSuccess) return Ok(response);
+            if (response.isSuccess)
+                return Ok(response);
 
             return BadRequest(response.Message);
         }

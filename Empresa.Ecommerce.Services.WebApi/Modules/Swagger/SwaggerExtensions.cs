@@ -6,7 +6,7 @@ using System.IO;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Collections.Generic;
 
-namespace Empresa.Ecommerce.Services.WebApi
+namespace Empresa.Ecommerce.Services.WebApi.Modules.Swagger
 {
     public static class SwaggerExtensions
     {

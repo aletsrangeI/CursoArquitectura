@@ -1,20 +1,20 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
 
-namespace Empresa.Ecommerce.Services.WebApi
+namespace Empresa.Ecommerce.Services.WebApi.Modules.Feature
 {
-    public static class FeatureExtension
+    public static class FeatureExtensions
     {
         public static IServiceCollection AddFeature(this IServiceCollection services, IConfiguration configuration)
         {
-
             string myPolicy = "policyApiEcommerce";
+
             services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins(configuration["Config:OriginCors"])
-                                                                            .AllowAnyHeader()
-                                                                            .AllowAnyMethod()));
+                                                                                        .AllowAnyHeader()
+                                                                                        .AllowAnyMethod()));
             services.AddMvc();
+
             return services;
         }
     }

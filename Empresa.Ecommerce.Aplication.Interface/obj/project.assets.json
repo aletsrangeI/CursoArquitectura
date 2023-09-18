@@ -1,23 +1,23 @@
 {
   "version": 3,
   "targets": {
-    ".NETStandard,Version=v2.1": {
+    "net7.0": {
       "FluentValidation/11.7.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/FluentValidation.dll": {
+          "lib/net7.0/FluentValidation.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/FluentValidation.dll": {
+          "lib/net7.0/FluentValidation.dll": {
             "related": ".xml"
           }
         }
       },
       "Empresa.Ecommerce.Application.DTO/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/Empresa.Ecommerce.Application.DTO.dll": {}
         },
@@ -25,9 +25,19 @@
           "bin/placeholder/Empresa.Ecommerce.Application.DTO.dll": {}
         }
       },
+      "Empresa.Ecommerce.Domain.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Empresa.Ecommerce.Domain.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Empresa.Ecommerce.Domain.Entity.dll": {}
+        }
+      },
       "Empresa.Ecommerce.Transversal.Common/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "FluentValidation": "11.7.1"
         },
@@ -69,6 +79,11 @@
       "path": "../Empresa.Ecommerce.Application.DTO/Empresa.Ecommerce.Application.DTO.csproj",
       "msbuildProject": "../Empresa.Ecommerce.Application.DTO/Empresa.Ecommerce.Application.DTO.csproj"
     },
+    "Empresa.Ecommerce.Domain.Entity/1.0.0": {
+      "type": "project",
+      "path": "../Empresa.Ecommerce.Domain.Entity/Empresa.Ecommerce.Domain.Entity.csproj",
+      "msbuildProject": "../Empresa.Ecommerce.Domain.Entity/Empresa.Ecommerce.Domain.Entity.csproj"
+    },
     "Empresa.Ecommerce.Transversal.Common/1.0.0": {
       "type": "project",
       "path": "../Empresa.Ecommerce.Transversal.Common/Empresa.Ecommerce.Transversal.Common.csproj",
@@ -76,8 +91,9 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETStandard,Version=v2.1": [
+    "net7.0": [
       "Empresa.Ecommerce.Application.DTO >= 1.0.0",
+      "Empresa.Ecommerce.Domain.Entity >= 1.0.0",
       "Empresa.Ecommerce.Transversal.Common >= 1.0.0"
     ]
   },
@@ -87,29 +103,32 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
+      "projectUniqueName": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
       "projectName": "Empresa.Ecommerce.Aplication.Interface",
-      "projectPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
+      "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\Empresa.Ecommerce.Aplication.Interface.csproj",
       "packagesPath": "C:\\Users\\Alecs\\.nuget\\packages\\",
-      "outputPath": "f:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\obj\\",
+      "outputPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Aplication.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alecs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netstandard2.1"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
             "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj": {
               "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Application.DTO\\Empresa.Ecommerce.Application.DTO.csproj"
+            },
+            "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj": {
+              "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Domain.Entity\\Empresa.Ecommerce.Domain.Entity.csproj"
             },
             "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj": {
               "projectPath": "F:\\Proyectos\\CursoArquitectura\\Empresa.Ecommerce.Transversal.Common\\Empresa.Ecommerce.Transversal.Common.csproj"
@@ -124,8 +143,8 @@
       }
     },
     "frameworks": {
-      "netstandard2.1": {
-        "targetAlias": "netstandard2.1",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -138,7 +157,7 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "NETStandard.Library": {
+          "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },

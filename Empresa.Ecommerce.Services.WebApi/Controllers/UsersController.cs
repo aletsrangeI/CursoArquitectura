@@ -1,4 +1,4 @@
-﻿using Empresa.Ecommerce.Aplication.Interface;
+﻿using Empresa.Ecommerce.Aplication.Interface.UseCases;
 using Empresa.Ecommerce.Application.DTO;
 using Empresa.Ecommerce.Services.WebApi.Helpers;
 using Empresa.Ecommerce.Transversal.Common;
@@ -28,7 +28,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
         }
         [AllowAnonymous]
         [HttpPost, ActionName("Authenticate")]
-        public IActionResult Authenticate([FromBody] UsersDTO usersDto)
+        public IActionResult Authenticate([FromBody] UserDTO usersDto)
         {
             var response = _usersApplication.Authenticate(usersDto.UserName, usersDto.Password);
 
@@ -40,7 +40,7 @@ namespace Empresa.Ecommerce.Services.WebApi.Controllers
             return Ok(response);
         }
 
-        private string BuildToken(Response<UsersDTO> usersDTO)
+        private string BuildToken(Response<UserDTO> usersDTO)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_appSettings.Secret);

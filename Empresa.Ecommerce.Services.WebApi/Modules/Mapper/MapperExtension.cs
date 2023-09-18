@@ -1,9 +1,7 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
 using Empresa.Ecommerce.Transversal.Maper;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace Empresa.Ecommerce.Services.WebApi
+namespace Empresa.Ecommerce.Services.WebApi.Modules.Mapper
 {
     public static class MapperExtension
     {

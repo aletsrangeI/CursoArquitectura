@@ -8,7 +8,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Empresa.Ecommerce.Domain.Entity\Empresa.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\Empresa.Ecommerce.Domain.Interface\Empresa.Ecommerce.Domain.Interface.csproj" />
-    <ProjectReference Include="..\Empresa.Ecommerce.Infrastructure.Interface\Empresa.Ecommerce.Infrastructure.Interface.csproj" />
   </ItemGroup>
 
 </Project>

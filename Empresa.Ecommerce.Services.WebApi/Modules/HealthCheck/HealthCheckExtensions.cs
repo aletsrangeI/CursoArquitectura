@@ -1,7 +1,8 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Empresa.Ecommerce.Ecommerce.Services.WebApi.Modules.HealthCheck;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Empresa.Ecommerce.Services.WebApi;
+namespace Empresa.Ecommerce.Services.WebApi.Modules.HealthCheck;
 
 public static class HealthCheckExtensions
 {

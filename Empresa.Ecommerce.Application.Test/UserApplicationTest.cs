@@ -1,32 +1,23 @@
-using Empresa.Ecommerce.Aplication.Interface;
-using Empresa.Ecommerce.Services.WebApi;
-using Microsoft.Extensions.Configuration;
+using Empresa.Ecommerce.Aplication.Interface.UseCases;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.IO;
 
 namespace Empresa.Ecommerce.Application.Test
 {
     [TestClass]
     public class UserApplicationTest
     {
-        private static IConfiguration  _configuration;
-        private static IServiceScopeFactory _scopeFactory;
+        private static WebApplicationFactory<Program> _factory = null;
+        private static IServiceScopeFactory _scopeFactory = null;
 
         [ClassInitialize]
         public static void Initialize(TestContext _)
         {
-            var builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", true, true)
-                .AddEnvironmentVariables();
-            _configuration = builder.Build();
-
-            var startup = new Startup(_configuration);
-            var services = new ServiceCollection();
-            startup.ConfigureServices(services);
-            _scopeFactory = services.BuildServiceProvider().GetService<IServiceScopeFactory>();
+            _factory = new CustomWebApplicationFactory();
+            _scopeFactory = _factory.Services.GetRequiredService<IServiceScopeFactory>();
         }
+
         [TestMethod]
         public void Authenticate_CuandoNoSeEnvianParametros_RetornarMensajeErrorValidacion()
         {
@@ -34,7 +25,7 @@ namespace Empresa.Ecommerce.Application.Test
             var context = scope.ServiceProvider.GetService<IUsersApplication>();
 
             //Arrange: donde se prepara el escenario de la prueba
-            
+
             var username = string.Empty;
             var password = string.Empty;
             var expected = "Errores de validacion";
@@ -59,7 +50,7 @@ namespace Empresa.Ecommerce.Application.Test
 
             var username = "aletsrangel";
             var password = "123456";
-            var expected = "Autenticación exitosa";
+            var expected = "AutenticaciÃ³n exitosa";
 
             //Act: donde se ejecuta el metodo a probar
 
